@@ -1,9 +1,4 @@
-package Q5;
-
-
-
-
-
+// package Q5;
 
 import java.util.*;
 
@@ -67,7 +62,8 @@ public class Question_5B {
     public void dfs(int curr, int prev) {
         disc[curr] = low[curr] = time++;
         for (int next : edgeMap.get(curr)) {
-            if (next == prev) continue;
+            if (next == prev)
+                continue;
             if (disc[next] == 0) {
                 dfs(next, curr);
                 low[curr] = Math.min(low[curr], low[next]);

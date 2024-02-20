@@ -1,19 +1,21 @@
-package Q1;
+// package Q1;
 
 public class SpaceEngines {
     /**
-     * Main method to test the functionality of calculating the minimum time to repair engines.
+     * Main method to test the functionality of calculating the minimum time to
+     * repair engines.
      */
     public static void main(String[] args) {
-        int[] engines = {1, 2, 3}; // Array representing time required to repair each engine
+        int[] engines = { 1, 2, 3 }; // Array representing time required to repair each engine
         int k = 1; // Maximum number of engineers available
         System.out.println(minimumTime(engines, k)); // Output the minimum time to repair all engines
     }
 
     /**
      * Method to calculate the minimum time required to repair all engines.
+     * 
      * @param engines Array representing time required to repair each engine
-     * @param k Maximum number of engineers available
+     * @param k       Maximum number of engineers available
      * @return Minimum time required to repair all engines
      */
     public static int minimumTime(int[] engines, int k) {

@@ -1,6 +1,6 @@
-package Q1;
+// package Q1;
 
-public class costevent {
+public class CostEvent {
     private int[][] costMatrix;
 
     // Method to insert cost matrix values

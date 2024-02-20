@@ -1,4 +1,4 @@
-package Q2;
+// package Q2;
 
 public class SuperSewingMachines {
     int dresses[];
